@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 <head>
   <title>Pintresting</title>
@@ -10,7 +10,7 @@
 	<%= render 'layouts/header' %>
 	<div class="container">
 		<% flash.each do |name, msg| %>
-			<%= content_tag(:div, msg, class: "alert alert-name") %>
+			<%= content_tag(:div, msg, class: "alert alert-info") %>
 		<% end %>
 		<%= yield %>
 	</div>
